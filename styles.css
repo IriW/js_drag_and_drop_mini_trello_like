@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Viaoda Libre';
+  font-weight: lighter;
+  font-size: medium;
+  background-color: #fbffb3;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 140px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.item {
+  width: 140px;
+  height: 50px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #74e9ba;
+  padding: 0.8rem 1rem;
+  color: #828282;
+  font-family: 'Varela Round';
+  font-size: smaller;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  background: linear-gradient(90deg, rgb(235, 252, 9) 14%, rgba(63,171,160,1) 76%);
+}
+
+.progress {
+background: linear-gradient(90deg, rgba(194,190,190,1) 26%, rgba(32,194,255,1) 93%);
+}
+
+.done {
+background: linear-gradient(90deg, rgba(32,194,255,0.860719584569733) 0%, rgba(66,176,61,1) 64%);
+}
+
+.canceled{
+  background: linear-gradient(90deg, rgba(61,255,32,0.14855341246290799) 0%, rgba(252,28,28,1) 45%);
+}
+
+.hold {
+  background: #828282;
+  color:  #eee;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border: 2px solid brown);
+}
